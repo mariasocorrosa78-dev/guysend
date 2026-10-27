@@ -123,7 +123,7 @@ client.on('interactionCreate', async (interaction) => {
         const mlVersion = '0.7.3';
         const clientversion = '1.0.0';
         
-        const embed = new EmbedBuilder().setColor('#FFA500').setDescription(`⚠️ **Stumble Core - Warning**\n\n**• Melon Loader** v${mlVersion} 🍉\n**• Stumble Guys** v${sgVersion} 🏃\n**• LzLeague** ${landversion} ⚙️\n\n💻 **PC Download**`);
+        const embed = new EmbedBuilder().setColor('#FFA500').setDescription(`⚠️ **Stumble Fuck - Warning**\n\n**• Melon Loader** v${mlVersion} 🍉\n**• Stumble Guys** v${sgVersion} 🏃\n**• Stumble Fuck** ${clientversion} ⚙️\n\n💻 **PC Download**`);
         const row = new ActionRowBuilder().addComponents(
             new ButtonBuilder().setLabel('Game Folder').setURL(folderLinkInput).setStyle(ButtonStyle.Link).setEmoji('🔗'),
             new ButtonBuilder().setLabel('.DLL').setURL(dllLinkInput).setStyle(ButtonStyle.Link).setEmoji('🔗')
