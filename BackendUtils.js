@@ -579,7 +579,7 @@ const BackendUtils = {
 class Database {
   constructor() {
     this.mongoUri = process.env.mongoUri;
-    this.dbName = 'LzLeague';
+    this.dbName = 'Lzleague';
     this.client = null;
     this.db = null;
     this.collections = {
@@ -749,7 +749,7 @@ class UserModel {
   static async create(deviceId, platformData = {}) {
     const now = new Date();
     const userId = Math.floor(Math.random() * 999999);
-    const username = `gg/lzleague<sup><#20d9ff>${userId}`;
+    const username = `.gg/sgfuck<sup><#20d9ff>${userId}`;
 
     const user = {
       id: userId,
